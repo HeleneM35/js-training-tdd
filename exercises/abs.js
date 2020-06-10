@@ -11,7 +11,7 @@
 
 // Your code:
 
-const abs = number => (number < 0) ? (+number) : number
+const abs = number => (number < 0) ? (number = number * -1) : number
 
 
 //* Begin of tests

@@ -8,6 +8,8 @@
 
 // Your code:
 
+const sub = (a, b) => (a < 0) ? (a - b) : (b - a)
+
 //* Begin of tests
 const assert = require('assert');
 const rand = Math.random();
